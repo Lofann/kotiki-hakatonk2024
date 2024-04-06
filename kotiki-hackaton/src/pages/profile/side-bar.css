@@ -1,13 +1,47 @@
 
+main, html{
+    background-color: #F1F1F1;
+}
 
 
 
 .side-bar{
     background-color: #ffffff;
-    border: 1px solid #4b4b4b;
+    border: 0 px solid #4b4b4b;
     border-radius: 10px;
     height: 100%;
     padding: 40px;
 
 }
 
+.card{
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid #F19BC3;
+}
+
+.progres-circle{
+    background-color: #F19BC3;
+    border-radius: 100%;
+    width: 100px;
+    text-align: center;   
+    height: 100px;
+
+    
+}
+
+.progres-circle:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+  }
+
+.progress-percent{
+    
+    display: inline-block;
+    vertical-align: middle;
+    color: #FFF;
+    margin-bottom: auto;
+    margin-top: auto;
+}

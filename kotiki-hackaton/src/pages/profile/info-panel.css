@@ -1,0 +1,29 @@
+
+
+.menu-panel li{
+    display: inline-block;
+
+}
+
+.active{
+    border-bottom: 2px solid #F19BC3;
+}
+
+
+.title{
+    margin-bottom: 20px;
+}
+
+.info-panel{
+    border: 0px solid #F19BC3;
+    background-color: white;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 10px;
+    
+}
+
+.discription{
+    overflow: auto;
+    
+}
